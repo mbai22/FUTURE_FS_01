@@ -81,10 +81,7 @@ FUTURE_FS_01/
 
 2. **Ouvrir le projet**
    - Double-cliquer sur `index.html`
-   - Ou utiliser un serveur local :
-     ```bash
-     # Avec Python
-     python -m http.server 8000
+     
      
      # Avec Node.js
      npx serve .
@@ -261,9 +258,9 @@ Pour toute question ou suggestion :
 - **Email** : contact@willydev.com
 - **Téléphone** : +235 63 93 57 84 / +237 69 55 77 92
 - **Localisation** : N'Djamena, Tchad
-- **GitHub** : https://github.com/willydev
-- **LinkedIn** : https://linkedin.com/in/willydev
-- **Facebook** : https://facebook.com/willydev
+- **GitHub** : https://github.com/mbaï22
+- **LinkedIn** : https://linkedin.com/in/Mbaihornomwillifred
+- **Facebook** : https://facebook.com/MbaïhornomWillifred 
 
 ---
 
