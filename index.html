@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Wilifred Mbaihornom | Développeur Full Stack</title>
+    <meta name="description" content="Portfolio personnel d'un développeur web full stack spécialisé en React, Node.js et technologies modernes">
+    <meta name="keywords" content="développeur web, full stack, react, node.js, portfolio, javascript">
+    <meta name="author" content="Wilifred Mbaihornom">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portfolio - Développeur Full Stack">
+    <meta property="og:description" content="Portfolio personnel d'un développeur web full stack">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/preview.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>Portfolio.</h3>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" style="background-image: url('./assets/bg-hero.jpg');">
+        <div class="hero-container" >
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Bonjour, je suis <span class="highlight">Mbaihornom Willifred</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Développeur Full Stack passionné basé à N'Djamena, Tchad
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/willydev" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/willydev" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://facebook.com/willydev" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/profile-hero.png" alt="Profile" class="profile-img">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Je suis un développeur web full stack passionné, spécialisé dans la création 
+                        d'applications web modernes et réactives. Mon expertise couvre à la fois le 
+                        frontend et le backend, me permettant de gérer des projets de bout en bout.
+                    </p>
+                    <p>
+                        Actuellement stagiaire chez Future Interns, je développe mes compétences 
+                        en travaillant sur des projets réels et en adoptant les meilleures pratiques 
+                        de l'industrie.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@willydev.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>N'Djamena, Tchad</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Disponible pour des missions</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Discutons de votre projet</a>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-container">
+                        <div class="about-image-bg"></div>
+                        <img src="./assets/profile.jpg" alt="Wilifred Mbaihornom" class="about-profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            
+            <div class="skills-intro">
+                <p>
+                    En tant que développeur Full Stack, je maîtrise l'ensemble des technologies nécessaires 
+                    pour créer des applications web complètes et performantes. Mon expertise couvre aussi bien 
+                    le développement frontend avec des interfaces utilisateur modernes et réactives, que le 
+                    backend avec des APIs robustes et des bases de données optimisées.
+                </p>
+                <p>
+                    Je suis passionné par l'apprentissage continu et je reste constamment à jour avec les 
+                    dernières tendances technologiques pour offrir des solutions innovantes et adaptées 
+                    aux besoins spécifiques de chaque projet.
+                </p>
+            </div>
+            
+            <div class="skills-organized">
+                <!-- Frontend -->
+                <div class="skill-group">
+                    <h3 class="skill-group-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item-clean">
+                            <i class="fab fa-html5 skill-icon-clean"></i>
+                            <span class="skill-name-clean">HTML5</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fab fa-css3-alt skill-icon-clean"></i>
+                            <span class="skill-name-clean">CSS3</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fab fa-js skill-icon-clean"></i>
+                            <span class="skill-name-clean">JavaScript</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fab fa-react skill-icon-clean"></i>
+                            <span class="skill-name-clean">React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-group">
+                    <h3 class="skill-group-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item-clean">
+                            <i class="fab fa-node-js skill-icon-clean"></i>
+                            <span class="skill-name-clean">Node.js</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fas fa-database skill-icon-clean"></i>
+                            <span class="skill-name-clean">MongoDB</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fas fa-server skill-icon-clean"></i>
+                            <span class="skill-name-clean">Express.js</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fas fa-database skill-icon-clean"></i>
+                            <span class="skill-name-clean">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-group">
+                    <h3 class="skill-group-title">Outils</h3>
+                    <div class="skill-items">
+                        <div class="skill-item-clean">
+                            <i class="fab fa-git-alt skill-icon-clean"></i>
+                            <span class="skill-name-clean">Git</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fab fa-github skill-icon-clean"></i>
+                            <span class="skill-name-clean">GitHub</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fas fa-code skill-icon-clean"></i>
+                            <span class="skill-name-clean">VS Code</span>
+                        </div>
+                        <div class="skill-item-clean">
+                            <i class="fas fa-terminal skill-icon-clean"></i>
+                            <span class="skill-name-clean">Terminal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Mes projets</h2>
+            <p>Voici quelques-uns des projets que j'ai réalisés lors de mon stage chez Future Interns.</p>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="fullstack">
+                    <div class="portfolio-image">
+                        <img src="./assets/project1.jpg" alt="Mini CRM">
+                        <div class="portfolio-overlay">
+                            <h3>Mini CRM</h3>
+                            <p>Système de gestion de clients avec interface moderne</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Mini CRM</h3>
+                        <p>Système de gestion client complet développé pour les PMES au Tchad avec suivi des ventes et gestion des contacts</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">JWT Auth</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="frontend">
+                    <div class="portfolio-image">
+                        <img src="./assets/project2.jpg" alt="Site Restaurant">
+                        <div class="portfolio-overlay">
+                            <h3>Site Restaurant</h3>
+                            <p>Site web moderne pour un restaurant local</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Site Restaurant</h3>
+                        <p>Site web moderne pour restaurant local avec menu interactif, réservations en ligne et paiement mobile</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="backend">
+                    <div class="portfolio-image">
+                        <img src="./assets/project3.jpg" alt="API REST">
+                        <div class="portfolio-overlay">
+                            <h3>API REST</h3>
+                            <p>API RESTful pour gestion de produits</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>API REST</h3>
+                        <p>API RESTful pour gestion de produits avec authentification JWT, documentation Swagger et tests unitaires</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">JWT</span>
+                            <span class="tag">Swagger</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">Blog</h2>
+            <p>Découvrez mes articles sur le développement web, les meilleures pratiques et les nouvelles technologies que j'explore.</p>
+            
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="./assets/blog.gif" alt="React Best Practices">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">15 Avril 2026</span>
+                            <span class="blog-category">Développement</span>
+                        </div>
+                        <h3 class="blog-title">Les Meilleures Pratiques React en 2024</h3>
+                        <p class="blog-excerpt">
+                            Découvrez les dernières tendances et meilleures pratiques pour développer des applications React modernes et performantes...
+                        </p>
+                        <a href="#" class="blog-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="./assets/blog-1.gif" alt="Web Performance">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">10 Avril 2026</span>
+                            <span class="blog-category">Performance</span>
+                        </div>
+                        <h3 class="blog-title">Optimiser les Performances Web</h3>
+                        <p class="blog-excerpt">
+                            Guide complet pour améliorer la vitesse de chargement de vos sites web et offrir une meilleure expérience utilisateur...
+                        </p>
+                        <a href="#" class="blog-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="./assets/blog-2.gif" alt="Node.js Tips">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">5 Avril 2026</span>
+                            <span class="blog-category">Backend</span>
+                        </div>
+                        <h3 class="blog-title">Tips pour Node.js et Express</h3>
+                        <p class="blog-excerpt">
+                            Astuces et techniques avancées pour construire des APIs robustes et scalables avec Node.js...
+                        </p>
+                        <a href="#" class="blog-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <p>N'hésitez pas à me contacter pour discuter de vos projets, collaborations ou toute opportunité professionnelle.</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Discutons de votre projet</h3>
+                    <p>
+                        Je suis toujours intéressé par de nouveaux projets et collaborations. 
+                        N'hésitez pas à me contacter pour discuter de vos idées.
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>contact@willydev.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-details">
+                                <h4>Téléphone</h4>
+                                <p>+235 63 93 57 84 / +237 69 55 77 92</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-details">
+                                <h4>Localisation</h4>
+                                <p>N'Djamena, Tchad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://github.com/willydev" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/willydev" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://facebook.com/willydev" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    <div class="form-message" id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Portfolio. Tous droits réservés.</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://github.com/willydev" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/willydev" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://facebook.com/willydev" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
